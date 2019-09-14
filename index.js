@@ -143,6 +143,8 @@ const createWebpackConfig = (root) => {
       proxy: require(path.resolve(root, './serverProxy')),
     };
   }
+
+  return webpackConfig;
 }
 
 // module.exports = webpackConfig;
