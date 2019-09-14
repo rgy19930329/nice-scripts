@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "nice-scripts",
   "main": "index.js",
-  "bin": {
-    "nice:dev": "cross-env NODE_ENV=development webpack-dev-server",
-    "nice:prod": "cross-env NODE_ENV=production webpack --color --progress"
-  },
   "author": "rgy",
   "license": "ISC",
   "dependencies": {
