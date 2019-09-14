@@ -140,7 +140,7 @@ const createWebpackConfig = (root) => {
       progress: true,
       host: '127.0.0.1',
       port: 9999,
-      proxy: require(root, './serverProxy'),
+      proxy: require(path.resolve(root, './serverProxy')),
     };
   }
 }
