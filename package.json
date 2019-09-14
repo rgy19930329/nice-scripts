@@ -6,7 +6,6 @@
   "author": "rgy",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
     "js-cookie": "^2.2.0",
     "mobx": "^4.8.0",
     "mobx-react": "^5.2.8",
