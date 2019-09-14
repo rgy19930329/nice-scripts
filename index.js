@@ -6,7 +6,6 @@ const OpenBrowserPlugin = require('open-browser-webpack-plugin');
 const CircularDependencyPlugin = require('circular-dependency-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const ParallelUglifyPlugin = require('webpack-parallel-uglify-plugin');
-// const serverProxy = require('./serverProxy');
 
 const isProd = process.env.NODE_ENV === 'production';
 const isDev = process.env.NODE_ENV === 'development';
@@ -143,10 +142,8 @@ const createWebpackConfig = (root) => {
       proxy: require(path.resolve(root, './serverProxy')),
     };
   }
-
+  
   return webpackConfig;
 }
-
-// module.exports = webpackConfig;
 
 module.exports = createWebpackConfig;
