@@ -1,9 +1,9 @@
 {
-  "name": "@nice/nice-scripts",
+  "name": "ky-nice-scripts",
   "version": "1.0.0",
   "description": "nice-scripts",
   "main": "index.js",
-  "author": "rgy",
+  "author": "ranguangyu",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.26.0",
