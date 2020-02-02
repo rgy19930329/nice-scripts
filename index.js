@@ -10,7 +10,7 @@ const ParallelUglifyPlugin = require('webpack-parallel-uglify-plugin');
 const isProd = process.env.NODE_ENV === 'production';
 const isDev = process.env.NODE_ENV === 'development';
 
-const createWebpackConfig = (root) => {
+const createWebpackConfig = function (root) {
   const webpackConfig = {
     entry: [
       isDev && 'react-hot-loader/patch',
@@ -39,7 +39,7 @@ const createWebpackConfig = (root) => {
           // include: path.resolve(root, './app'),
           include: [
             path.resolve(root, 'app'),
-            path.resolve(root, 'node_modules/nice-ui'),
+            path.resolve(root, 'node_modules/@nice/nice-ui'),
           ],
           exclude: '/node_modules/',
         },
