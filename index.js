@@ -39,7 +39,7 @@ const createWebpackConfig = function (root) {
           // include: path.resolve(root, './app'),
           include: [
             path.resolve(root, 'app'),
-            path.resolve(root, 'node_modules/@nice/nice-ui'),
+            path.resolve(root, 'node_modules/ky-nice-ui'),
           ],
           exclude: '/node_modules/',
         },
