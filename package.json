@@ -6,17 +6,6 @@
   "author": "rgy",
   "license": "ISC",
   "dependencies": {
-    "js-cookie": "^2.2.0",
-    "mobx": "^4.8.0",
-    "mobx-react": "^5.2.8",
-    "nprogress": "^0.2.0",
-    "prop-types": "^15.6.2",
-    "rc-queue-anim": "^1.6.11",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-router-dom": "^4.3.1",
-    "react-transition-group": "^2.5.3",
-    "uniqueid": "^1.0.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.5",
     "babel-plugin-import": "^1.11.0",
@@ -48,7 +37,6 @@
     "webpack-parallel-uglify-plugin": "^1.0.2"
   },
   "files": [
-    "index.js",
     "README.md"
   ]
 }
